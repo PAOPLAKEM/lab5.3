@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+        <script>
+            let student = [
+{
+fullname: 'นายsunny ',
+age: 2547,
+year: 1,
+gpa: 3.40,
+help: true
+},
+{
+fullname: 'นายสง่าง่าม ตลอดมา',
+age: 2546,
+year: 2,
+gpa: 3.00,
+help: false
+},
+{
+fullname: 'นางสาวหลายใจ ดีงาม',
+age: 2545,
+year: 3,
+gpa: 2.90,
+help: true
+},
+{
+fullname: 'นางสาวหลายใจ ตลอดมา',
+age: 2545,
+year: 2,
+gpa: 4.0,
+help: true
+},
+{
+fullname: 'นางสาวกงอูหลง หนผี',
+age: 2547,
+year: 1,
+gpa: 2.90,
+help: true
+}
+,
+{
+fullname: 'นาย พุตโธ ธรรมโจ',
+age: 2547,
+year: 1,
+gpa: 3.5,
+help: false
+}
+,
+{
+fullname: 'นางสาวขวบงอ sun',
+age: 2545,
+year: 3,
+gpa: 3.52,
+help: true
+}
+,
+{
+fullname: 'นางสาวtr',
+age: 2547,
+year: 1,
+gpa: 3,
+help: true
+}
+,
+{
+fullname: 'นางสาวth',
+age: 2547,
+year: 1,
+gpa: 3,
+help: false
+}
+,
+{
+fullname: 'นางสาวty',
+age: 2546,
+year: 2,
+gpa: 3,
+help: true
+}
+,
+{
+fullname: 'นางสาวtu',
+age: 2546,
+year: 2,
+gpa: 2.5,
+help: true
+}
+,
+{
+fullname: 'นางสาวop',
+age: 2546,
+year: 2,
+gpa: 2.5,
+help: false
+}
+,
+{
+fullname: 'นางสาวmj',
+age: 2545,
+year: 3,
+gpa: 3,
+help: false
+}
+,
+{
+fullname: 'นางสาวkl',
+age: 2545,
+year: 3,
+gpa: 2.5,
+help: true
+}
+,
+{
+fullname: 'นางสาวkj',
+age: 2545,
+year: 3,
+gpa: 2.5,
+help: false
+}
+
+]
+for (let i=0 ;i<student.length;i++){
+       
+       if(student[i].gpa>=3.20){
+        console.log(student[i].fullname,"เกิด",student[i].age,"ได้ทุน เนื่องจากเกรดเฉลี่ยถึงเกณฑ์3.2")
+       }
+       else if(student[i].year>=2 && student[i].gpa>=2.75 && student[i].help==true){
+        console.log(student[i].fullname,"เกิด",student[i].age," ได้ทุน เนื่องจากเกรดเฉลี่ยถึงเกณฑ์และยังช่วยงานภาควิชาด้วย")
+       }
+       
+}
+
+        </script>
+</html>
